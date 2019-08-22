@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="form_container border">
+      <h1>Are You A Naturalista?</h1>
+
+      <main role="main">
+        <form id="js_start_form" role="search">
+          <div class="content ">
+            <label for="start_btn">
+              <input
+                class="start_btn js_start_btn"
+                type="submit"
+                value="Start Quiz"
+              />
+            </label>
+            <p class="quiz_summary">
+              Take the quiz and test your natural hair care knowlege.
+            </p>
+          </div>
+
+          <div class="btn_container js_btn_container hide">
+            <button class="js_answer_btn">Submit Answer</button>
+            <button class="next_btn js_next_btn" disabled>Next Question</button>
+          </div>
+          <div class="result_btn_container hide">
+            <button class="result_btn js_result_btn">View Total Score</button>
+          </div>
+          <div class="restart_btn_container hide">
+            <button class="restart_btn js_restart_btn">
+              Click To Retake Quiz
+            </button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
