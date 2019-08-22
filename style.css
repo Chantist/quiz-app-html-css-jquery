@@ -16,11 +16,6 @@ h1 {
   padding: 25px 0px 10px 0px;
 }
 
-/* .border,
-.banner {
-  border: 1px solid rgb(232, 10, 91);
-} */
-
 form,
 .form_container {
   background: white;
@@ -28,8 +23,7 @@ form,
 }
 
 form {
-  padding-left: 20px;
-  padding-right: 70px;
+  padding-left: 0px 20px;
   color: black;
   width: 70%;
   height: 75%;
@@ -47,8 +41,8 @@ form {
 
 fieldset {
   width: 354px;
-  height: 100px;
-  border: solid #f0eea7 4px;
+  height: 150px;
+  border: solid gray 2px;
   padding-top: 10px;
 }
 
@@ -58,19 +52,18 @@ fieldset {
   margin: 0 auto;
 }
 
+.quiz_summary {
+  top: 220px;
+}
+
 .btn button,
 .quiz_summary {
   font-weight: bold;
   font-size: large;
 }
 
-.quiz_summary {
-  top: 220px;
-}
-
 button,
-.start_btn,
-.restart_btn {
+.start_btn {
   background: rgb(246, 175, 201);
   padding: 15px;
   border: none;
@@ -79,17 +72,22 @@ button,
 
 .restart_btn,
 .start_btn {
+  /* padding: 15px; */
   height: 150px;
   font-size: x-large;
   border-radius: 50%;
   position: absolute;
-  display: inline;
+  display: block;
   box-shadow: 0px 6px 3px rgb(243, 147, 182);
 }
 
 .start_btn {
   top: 50px;
   left: 160px;
+}
+.nav-btn {
+  border-radius: 8px;
+  margin: 20px 5px;
 }
 
 .restart_btn {
@@ -99,14 +97,13 @@ button,
 
 .question_tracker {
   padding: 10px;
-  background-color: #f0eea6;
+  background-color: #e6e36a;
   font-weight: bold;
   font-size: large;
-  color: #028482;
   position: absolute;
   display: inline-block;
-  right: -42px;
-  top: -136px;
+  right: -85px;
+  top: 460px;
 }
 
 .btn_container,
@@ -143,10 +140,9 @@ form,
   font-weight: bold;
 }
 
-.result,
-.question_container {
-  border-radius: 10px;
-  border: 2px solid #028482;
+.result {
+  border-radius: 8px;
+  border: 1px solid gray;
 }
 
 .question_container {
@@ -171,7 +167,6 @@ form,
 
 .result_heading {
   font-size: large;
-  text-decoration: underline;
 }
 
 .options_heading {
