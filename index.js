@@ -209,7 +209,7 @@ function restartQuiz() {
   $(".js_restart_btn").click(event => {
     console.log("restartQuiz` ran");
     event.preventDefault();
-    window.location.href = "index.html";
+    window.location.href = "quiz.html";
   });
 }
 
